@@ -1,0 +1,23 @@
+#page-header {
+  background: url('/img/bg2.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  filter: brightness(1.2);
+}
+
+#page-header::before {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+#web_bg {
+  background-image: url('/img/bg.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.site-title {
+  color: #ffffff !important;
+  text-shadow: 
+    0 0 10px #00ccff,
+    0 0 20px #00ccff,
+    0 0 40px #00ccff,
+    0 0 80px #00ccff !important;
+}
